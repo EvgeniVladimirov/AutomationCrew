@@ -13,7 +13,7 @@ public class MyDemo {
 		driver.get("https://google.bg");
 		
 		driver.findElement(By.xpath("//a[@class='gb_B gb_pc']")).click();
-		Thread.sleep(3000);
+		Thread.sleep(5000);
 		driver.findElement(By.cssSelector("[class='Rq5Gcb']")).click();
 
 	}
