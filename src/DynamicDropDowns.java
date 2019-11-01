@@ -24,10 +24,13 @@ public class DynamicDropDowns {
 		//driver.findElement(By.xpath("//input[@id='ctl00_mainContent_ddl_destinationStation1_CTXT']")).click();
 		
 		driver.findElement(By.xpath("(//a[@value='MAA'])[2]")).click();
-		
+		//This is the same //div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='MAA'] but without an index [2];
 		
 		// XPath for Chennai   "//a[@value='MAA']"
 		// XPath for Bengaluru "//a[@value='BLR']"
+		
+		////div[@id='glsctl00_mainContent_ddl_originStation1_CTNR']//a[@value='MAA']
+		////div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='MAA']
 		
 	}
 

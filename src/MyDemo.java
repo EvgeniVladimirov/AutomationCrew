@@ -14,8 +14,9 @@ public class MyDemo {
 		
 		driver.findElement(By.xpath("//a[@class='gb_B gb_pc']")).click();
 		Thread.sleep(5000);
-		driver.findElement(By.cssSelector("[class='Rq5Gcb']")).click();
-
+		driver.findElement(By.xpath("//div[@class='EHzcec eejsDc']//a[@class='tX9u1b']")).click();
+		
+		
 	}
 
 }
