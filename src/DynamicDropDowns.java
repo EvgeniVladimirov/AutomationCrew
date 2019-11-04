@@ -31,6 +31,10 @@ public class DynamicDropDowns {
 		
 		////div[@id='glsctl00_mainContent_ddl_originStation1_CTNR']//a[@value='MAA']
 		////div[@id='glsctl00_mainContent_ddl_destinationStation1_CTNR']//a[@value='MAA']
+		Thread.sleep(2000);
+		
+		driver.findElement(By.cssSelector(".ui-state-default.ui-state-highlight.ui-state-active")).click();
+		
 		
 	}
 
